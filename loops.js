@@ -9,3 +9,14 @@ function forLoop(array) {
   }
   return array;
 }
+
+function whileLoop(n) {
+  for (let n = 100, n >= 0, n--) {
+    if (n === 0) {
+      return "Done";
+    } else {
+      console.log(n);
+    }
+  }
+
+}
